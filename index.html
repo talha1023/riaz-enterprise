@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Riaz Enterprise - Premium motorcycle accessories, helmets, riding gear and LED lights in Khulna, Bangladesh. Upgrade your ride with confidence.">
+    <meta name="keywords" content="motorcycle accessories, helmets, riding gear, LED lights, bike parts, Khulna Bangladesh">
+    <meta name="author" content="Riaz Enterprise">
+    <meta property="og:title" content="Riaz Enterprise - Premium Motorcycle Accessories & Riding Gear">
+    <meta property="og:description" content="Premium motorcycle accessories and riding gear showroom in Khulna, Bangladesh. Upgrade your ride with confidence.">
+    <meta property="og:type" content="business.business">
+    <meta property="og:url" content="https://talha1023.github.io/riaz-enterprise/">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&h=630&fit=crop">
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='75' font-size='75' fill='%23D4AF37'>⚡</text></svg>">
+    <link rel="stylesheet" href="style.css">
+    <title>Riaz Enterprise - Premium Motorcycle Accessories & Riding Gear</title>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-icon">⚡</span>
+                <span class="logo-text">RIAZ</span>
+            </div>
+            
+            <button class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#products" class="nav-link">Products</a></li>
+                <li><a href="#categories" class="nav-link">Categories</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">RIAZ ENTERPRISE</h1>
+            <p class="hero-subtitle">Premium Motorcycle Accessories & Riding Gear</p>
+            <p class="hero-tagline">Upgrade Your Ride. Ride With Confidence.</p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary" onclick="document.getElementById('products').scrollIntoView({behavior: 'smooth'})">EXPLORE PRODUCTS</button>
+                <button class="btn btn-secondary" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">CONTACT US</button>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=600&fit=crop" alt="Premium Motorcycle">
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section id="categories" class="categories">
+        <h2 class="section-title">SHOP BY CATEGORY</h2>
+        <div class="categories-grid">
+            <div class="category-card">
+                <div class="category-icon">🪖</div>
+                <h3>Helmets</h3>
+                <p>Premium safety helmets</p>
+            </div>
+            <div class="category-card">
+                <div class="category-icon">💡</div>
+                <h3>Bike LED & Lights</h3>
+                <p>Lighting solutions</p>
+            </div>
+            <div class="category-card">
+                <div class="category-icon">🧤</div>
+                <h3>Riding Gloves</h3>
+                <p>Protection & comfort</p>
+            </div>
+            <div class="category-card">
+                <div class="category-icon">🔊</div>
+                <h3>Bluetooth Communicators</h3>
+                <p>Smart connectivity</p>
+            </div>
+            <div class="category-card">
+                <div class="category-icon">🔒</div>
+                <h3>Disc Locks & Security</h3>
+                <p>Bike protection</p>
+            </div>
+            <div class="category-card">
+                <div class="category-icon">🔧</div>
+                <h3>Bike Accessories</h3>
+                <p>Essential upgrades</p>
+            </div>
+            <div class="category-card">
+                <div class="category-icon">👕</div>
+                <h3>Riding Gear</h3>
+                <p>Complete protection</p>
+            </div>
+            <div class="category-card">
+                <div class="category-icon">✨</div>
+                <h3>New Arrivals</h3>
+                <p>Latest products</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products Section -->
+    <section id="products" class="featured-products">
+        <h2 class="section-title">FEATURED PRODUCTS</h2>
+        <div class="products-grid" id="productsGrid">
+            <!-- Products will be loaded here by JavaScript -->
+        </div>
+    </section>
+
+    <!-- Helmets Section -->
+    <section class="helmets">
+        <h2 class="section-title">PREMIUM HELMETS COLLECTION</h2>
+        <div class="helmets-grid" id="helmetsGrid">
+            <!-- Helmets will be loaded here by JavaScript -->
+        </div>
+    </section>
+
+    <!-- Bike LED Section -->
+    <section class="bike-led">
+        <div class="bike-led-content">
+            <h2 class="section-title">LIGHT UP YOUR RIDE</h2>
+            <p class="bike-led-subtitle">Premium lighting solutions for a brighter and more confident ride.</p>
+            <p class="bike-led-description">Illuminate your path with our premium LED lighting collection. From headlights to accent lights, we provide solutions that enhance visibility and style.</p>
+            <button class="btn btn-primary" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">EXPLORE LED SOLUTIONS</button>
+        </div>
+        <div class="bike-led-image">
+            <img src="https://images.unsplash.com/photo-1606611013016-969bfba1c72f?w=600&h=500&fit=crop" alt="LED Lights">
+        </div>
+    </section>
+
+    <!-- Accessories Section -->
+    <section class="accessories">
+        <h2 class="section-title">PREMIUM ACCESSORIES</h2>
+        <div class="accessories-grid" id="accessoriesGrid">
+            <!-- Accessories will be loaded here by JavaScript -->
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-choose">
+        <h2 class="section-title">WHY CHOOSE RIAZ ENTERPRISE?</h2>
+        <div class="why-choose-grid">
+            <div class="why-card">
+                <div class="why-icon">⭐</div>
+                <h3>Premium Products</h3>
+                <p>Hand-selected, high-quality motorcycle accessories and gear from trusted brands.</p>
+            </div>
+            <div class="why-card">
+                <div class="why-icon">📦</div>
+                <h3>Wide Selection</h3>
+                <p>Extensive range of products to meet all your motorcycle needs and preferences.</p>
+            </div>
+            <div class="why-card">
+                <div class="why-icon">🏆</div>
+                <h3>Trusted Showroom</h3>
+                <p>Established and reliable motorcycle accessories showroom in Khulna.</p>
+            </div>
+            <div class="why-card">
+                <div class="why-icon">🏍️</div>
+                <h3>Rider Focused</h3>
+                <p>We understand riders' needs and provide expert recommendations.</p>
+            </div>
+            <div class="why-card">
+                <div class="why-icon">💬</div>
+                <h3>Customer Support</h3>
+                <p>Dedicated support and assistance for all your inquiries and concerns.</p>
+            </div>
+            <div class="why-card">
+                <div class="why-icon">🚚</div>
+                <h3>Convenient Access</h3>
+                <p>Located in central Khulna for easy access and quick purchases.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about">
+        <div class="about-content">
+            <h2 class="section-title">ABOUT RIAZ ENTERPRISE</h2>
+            <p>Riaz Enterprise is a premium motorcycle accessories and riding gear showroom located in the heart of Khulna, Bangladesh. With a passion for motorcycles and a commitment to safety, we provide riders with the highest quality products and expert guidance.</p>
+            <p>Our curated collection includes helmets, LED lights, riding gloves, Bluetooth communicators, security devices, and comprehensive bike accessories. We partner with trusted global brands to ensure every product meets our quality standards.</p>
+            <p>Whether you're a casual rider or a motorcycle enthusiast, our team is dedicated to helping you find the perfect products to enhance your riding experience and keep you safe on every journey.</p>
+            <p><strong>Upgrade Your Ride. Ride With Confidence.</strong></p>
+        </div>
+        <div class="about-image">
+            <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=500&fit=crop" alt="Motorcycle Showroom">
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <h2 class="section-title">GALLERY</h2>
+        <p class="gallery-subtitle">Explore our collection of premium products and showroom</p>
+        <div class="gallery-grid" id="galleryGrid">
+            <!-- Gallery images will be loaded here by JavaScript -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2 class="section-title">GET IN TOUCH</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>RIAZ ENTERPRISE</h3>
+                <p class="contact-address">
+                    6, Sultan Chamber<br>
+                    Khan-A-Sabur Road<br>
+                    Khulna, Bangladesh
+                </p>
+                <p class="contact-phone">
+                    <strong>Phone:</strong><br>
+                    <a href="tel:+8801712109718">01712-109718</a><br>
+                    <a href="tel:+8801923068811">01923-068811</a>
+                </p>
+                <div class="contact-buttons">
+                    <a href="tel:+8801712109718" class="btn btn-primary" title="Call us">📞 CALL NOW</a>
+                    <a href="https://wa.me/8801712109718" class="btn btn-secondary" target="_blank" title="Message on WhatsApp">💬 WHATSAPP</a>
+                    <a href="https://facebook.com" class="btn btn-secondary" target="_blank" title="Visit our Facebook page">📘 FACEBOOK</a>
+                    <a href="https://maps.google.com/maps/search/6+Sultan+Chamber+Khan-A-Sabur+Road+Khulna+Bangladesh" class="btn btn-secondary" target="_blank" title="View on Google Maps">📍 GOOGLE MAPS</a>
+                </div>
+            </div>
+            <div class="contact-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3633.7519947634746!2d89.56356!3d22.80477!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ff81d7e7e7e7e7%3A0x0!2sKhulna%2C%20Bangladesh!5e0!3m2!1sen!2sbd!4v1234567890" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>RIAZ ENTERPRISE</h4>
+                <p>Premium Motorcycle Accessories & Riding Gear</p>
+            </div>
+            <div class="footer-section">
+                <h4>QUICK LINKS</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>CONTACT</h4>
+                <p>6, Sultan Chamber<br>Khan-A-Sabur Road<br>Khulna, Bangladesh</p>
+                <p><a href="tel:+8801712109718">01712-109718</a><br><a href="tel:+8801923068811">01923-068811</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Riaz Enterprise. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
